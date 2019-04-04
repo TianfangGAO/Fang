@@ -1,0 +1,24 @@
+.banner {
+  height: 30vh;
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%);
+  background-size: cover;
+  background-image: url(../../images/bk.jpg);
+  color: #295a86;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-position: center;
+  padding: 50px 10px;
+  margin: 10px;
+  flex-direction：column;
+}
+
+.banner h1 {
+  font-size: 80px;
+  font-weight: lighter;
+}
+
+.banner p {
+  font-size: 30px;
+  font-weight: lighter;
+}

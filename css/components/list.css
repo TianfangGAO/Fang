@@ -1,0 +1,41 @@
+
+.UNI-container {
+  display: flex;
+  justify-content:0,0;
+  align-items: center;
+  padding: 20px;
+  transition: all 0.5s ease;
+  border-radius: 20px;
+  height: 20vh;
+  background-color: white;
+}
+.UNI-container:hover {
+  background: #bce6e8;
+}
+.photo-container{
+  flex-basis: 15%;
+}
+
+.discreption-container{
+  flex-direction：column;
+  flex-basis: 85%;
+}
+
+.title-container{
+  flex: 1;
+}
+.contenu-container{
+  flex: 1;
+}
+
+.parent{
+  display: flex;
+  justify-content:space-between;
+  align-items: stretch;
+  padding: 20px;
+  transition: all 0.5s ease;
+  border-radius: 20px;
+  background-color: #bce6e8;
+  margin: 30px; 
+  height: 40vh;
+}

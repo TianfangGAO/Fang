@@ -1,0 +1,26 @@
+/* --- Components design --- */
+@import url("components/banner.css");
+@import url("components/tabs.css");
+@import url("components/list.css");
+
+/* --- Fonts --- */
+body {
+  flex-direction：column;
+  font-family: "Open Sans", "Courier", "sans-serif";
+  padding-bottom: 200px;
+  background-color: #bce6e8;
+}
+h1, h2, h3 {
+  font-family: "Courier", "sans-serif";
+}
+h2{
+	padding: 10px;
+}
+.cv-parent{
+	display: flex;
+    padding: 50px 10px;
+    margin: 80px;
+}
+.cv-child2{
+    height: 30px;
+}
